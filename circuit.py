@@ -41,6 +41,10 @@ def add_zeroes(a,length):
 
 
 
+
+
+
+
 def full_adder(a,b,c):
 
     temp_s,c1 = half_adder(a,b)
@@ -76,6 +80,7 @@ def manage_length(a,b):
         return a_changed,b_byte
     else:
         return a_byte,b_byte
+
 
 
 def inverter(a):
